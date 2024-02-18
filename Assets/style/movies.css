@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+zidex1{
+    z-index: 1;
+    position: absolute;
+
+}
+
+#body{
+    background:rgb(18, 12, 52);
+}

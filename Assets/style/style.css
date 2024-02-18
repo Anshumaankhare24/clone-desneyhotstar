@@ -1,0 +1,258 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: none; */
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: rgb(12, 12, 19);
+
+    /* background-image: url(../image/slider\ 5.png) ; */
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    
+    width: 90px;
+    overflow: hidden;
+    transition: width 0.20px linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, alpha);
+}
+.navo{
+    opacity: 0.5;
+    background-color: black;
+}
+
+.logo {
+    margin: 15px;
+    display: flex;
+    transition: all 0.5s ease;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 51px;
+    height: 37.34px;
+
+
+}
+
+.logo span {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: appercase;
+}
+
+.a {
+    position: relative;
+    color: rgba(229,231,235);
+    font-size: 20px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+
+
+}
+
+.a:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.7);
+    transform: scale(1.04);
+    
+    color: rgb(255, 255, 255);
+}
+
+.fas {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+
+
+.nav:hover {
+    width: 280px;
+    transform: all 2.0s ease;
+}
+
+
+
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 1.9;
+    padding: 4;
+    height: 10px;
+    max-width: 200px;
+    background: #ffffff;
+    /* fallback color for old browsers */
+    background: rgba(201, 188, 4, 0.5);
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+
+/* search bar */
+.form{
+   
+    padding:33px;
+    position: relative;
+    top: 8px;
+    left: 83px;
+    
+}
+.search{
+    --padding:11px;
+    width: max-content;
+    display: center;
+    padding: var(--padding);
+    border-radius: 11px;
+    background:rgb(28, 31, 42) ;
+    width: 91%;
+    color: rgba(166, 166, 168, 0.25);
+    
+
+
+}
+
+.search-input{
+    font-size: 17px;    
+    color: rgba(166, 166, 168, 0.25);
+    margin: var(--padding);
+    outline: none;
+    border: none;
+    background:transparent;
+    flex: 1;
+}
+
+.serach-input::placeholder,
+.serach-icon{
+    background: rgba(166, 166, 168, 0.25) ;
+}
+
+/* .footertable{
+    padding:33px;
+    position: absolute;
+    bottom: 8px;
+    left: 83px;
+    color: #ffffff;
+
+}
+
+.tr-1{
+    padding: 100px;
+}
+.th{
+    padding: 30px;
+    right:0;
+ } */
+
+ .container{
+	max-width: 1170px;
+	margin:auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(12, 12, 19);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 33px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #000000;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.size{
+    width: 200px;
+
+}
+.left{
+    right: 100px;
+}
+
+
+
